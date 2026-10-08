@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="GPL-3.0-only"
+
+[[mods]]
+    modId="chaotic"
+    version="1.2.3"
+    displayName="Chaotic"
+    credits="Developed by chaotic and chaoticlives"
+    authors="chaotic, chaoticlives"
+    description='''
+    An intense, high-stakes combat medical system expansion. \n
+    Features multi-stage trauma treatment systems including Medkits, Syringes, Tourniquet Latches, Cobalt Straps, compression Field Bandages, and custom player life systems. Fully compatible with TACZ firearm damage amplifiers!
+    '''
+
+[[dependencies.chaotic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chaotic]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[26.3.0.52-beta,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chaotic]]
+    modId="tacz"
+    mandatory=false
+    versionRange="[1.1.8+mc26.3,)"
+    ordering="AFTER"
+    side="BOTH"

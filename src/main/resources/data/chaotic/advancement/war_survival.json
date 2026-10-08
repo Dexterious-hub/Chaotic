@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "chaotic:syringe"
+    },
+    "title": {
+      "text": "War Survival",
+      "color": "red"
+    },
+    "description": {
+      "text": "Cheated death by being successfully revived from a downed state."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "revived_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

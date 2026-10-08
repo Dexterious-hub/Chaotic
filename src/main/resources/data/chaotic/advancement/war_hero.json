@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "chaotic:medkit"
+    },
+    "title": {
+      "text": "War Hero",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Successfully revived a teammate while completely swarmed by hostile threats."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chaotic:war_survival",
+  "criteria": {
+    "swarm_revive_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

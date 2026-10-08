@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  N",
+    " G ",
+    "G  "
+  ],
+  "key": {
+    "G": {
+      "id": "minecraft:glass_pane"
+    },
+    "N": {
+      "id": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "chaotic:syringe",
+    "count": 1
+  }
+}

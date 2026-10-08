@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SWS",
+    "LGL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "id": "minecraft:leather"
+    },
+    "W": {
+      "id": "minecraft:white_wool"
+    },
+    "G": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "S": {
+      "id": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "chaotic:medkit",
+    "count": 1
+  }
+}

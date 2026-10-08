@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Medal of Honor",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Revived a teammate while on the absolute brink of death yourself."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chaotic:war_hero",
+  "criteria": {
+    "near_death_revive_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

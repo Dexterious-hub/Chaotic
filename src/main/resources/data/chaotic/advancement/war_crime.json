@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "War Crime",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Executed an already downed and helpless soldier."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chaotic:war_survival",
+  "criteria": {
+    "war_crime": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

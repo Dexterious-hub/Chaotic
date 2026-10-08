@@ -1,0 +1,26 @@
+{
+  "bleedout": {
+    "subtitle": "sound.chaotic.bleedout",
+    "sounds": [
+      "chaotic:bleedout"
+    ]
+  },
+  "final_bleedout": {
+    "subtitle": "sound.chaotic.final_bleedout",
+    "sounds": [
+      "chaotic:final_bleedout"
+    ]
+  },
+  "revive": {
+    "subtitle": "sound.chaotic.revive",
+    "sounds": [
+      "chaotic:revive"
+    ]
+  },
+  "treatment": {
+    "subtitle": "sound.chaotic.treatment",
+    "sounds": [
+      "chaotic:treatment"
+    ]
+  }
+}

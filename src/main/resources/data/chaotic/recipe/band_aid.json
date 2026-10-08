@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PS"
+  ],
+  "key": {
+    "P": {
+      "id": "minecraft:paper"
+    },
+    "S": {
+      "id": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "id": "chaotic:band_aid",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N N",
+    " I ",
+    "N N"
+  ],
+  "key": {
+    "N": {
+      "id": "minecraft:iron_nugget"
+    },
+    "I": {
+      "id": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "chaotic:tourniquet_latch",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "WWW",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "id": "minecraft:string"
+    },
+    "W": {
+      "id": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "id": "chaotic:bandage",
+    "count": 2
+  }
+}

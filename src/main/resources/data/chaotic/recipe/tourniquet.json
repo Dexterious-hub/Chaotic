@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "L",
+    "T"
+  ],
+  "key": {
+    "S": {
+      "id": "minecraft:string"
+    },
+    "L": {
+      "id": "minecraft:leather"
+    },
+    "T": {
+      "id": "chaotic:tourniquet_latch"
+    }
+  },
+  "result": {
+    "id": "chaotic:tourniquet",
+    "count": 1
+  }
+}
